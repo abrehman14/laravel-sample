@@ -1,26 +1,26 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 ## Image Temporary Url Generation
-Its a sample code in which we store a user with  params name,type,description and file. The file is basically an
-image **maxsize of 5MB**   which is stored in the private directory and we generate the temporary url for the file which
-will  expire after 10 mints, And has a cron job implemented which will run every hour and will remove the 30 days old record.
+About the sample code: In this project, we store a user with  params: name, type, description, and file. The file is basically an
+image with a **maxsize of 5MB**   which is stored in the private directory. The system generates a temporary url for the file which
+expires after 10 minutes. There is a cron job which will run every hour and will remove the records older than 30 days.
 
-###  Concepts Implemented
+###  Concepts & Standards Implemented
 - Single Responsibility Principle
 - Code Abstraction Using Interfaces and Services
 - Data Transfer Object
 - Request Validations
 - Docker
-- Test Driven Apis
+- Test Driven Development
 - Code Coverage
-- Code Coverage Reports Generation
+- Reports Generation for the Code Coverage
  
 ###  Third Party Package Used
 
 - [Intervention / image](https://github.com/Intervention/image)
 
 ## Project Setup
-This project has both the support to run either on the docker or you can also run it as a simple laravel project
+This project has both the support to run either with the docker or you can also run it as a simple laravel project
 
 ## Laravel Run Environment Dependence
 
